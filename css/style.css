@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+background-color: cadetblue;
+}
+.Displayside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: darkgray;
+   padding: 20px;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.form{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.display{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.display .displayshow{
+ display: flex;
+ text-align: end;
+ color: white;
+ width: 300px;
+ border-radius: 10px;
+ background-color: transparent;
+ border: none;
+ outline: none;
+ font-size: 45px;
+ justify-content: end;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+.inputValue{
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.75);
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.equal{
+    border: none;
+    outline: none;
+    height: 60px;
+    
+    width: 145px;
+    box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.75);
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+     border-radius: 10px;
+}
